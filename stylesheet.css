@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+}
+
+header{
+    position: fixed;
+    z-index: 10;
+    background-color:darkkhaki;
+    width: 100%;
+}
+
+.header-left{
+    padding: 12px 12px;
+    display:inline-block;
+    color: white;
+    font-size: 35px;
+    margin-left:5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+    margin-right: 10px;
+  }
+  
+  .top-list li {
+    float: left;
+  }
+  
+  .top-list li a {
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+ .top-back{
+     background-image: url(image-1.jpg);
+     background-size: cover;
+     position: relative;
+     height:650px;
+     width: 100%;
+ }
+
+ .pic{
+     position: absolute;
+     margin-top: 45px;
+     top: 0%;
+     height:600px;
+     left:20%;
+ }
+
+ .welcome-section {
+     position:absolute;
+     top: 41%;
+     left: 41%;
+     font-family: "Freestyle Script";
+     text-align: center;
+ }
+
+ .welcome {
+  font-size: 90px;
+ }
+
+ .project-section {
+   padding: 100px;
+   display: flex;
+ }
+
+ .project-discription-left {
+   text-align: center;
+   width: 50%;
+ }
+
+ .project-discription-left h2{
+    border-bottom: 2px solid rgb(58, 54, 54);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ .my-description{
+    color:rgb(82, 80, 80);
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ .my-description a{
+   padding: 20px;
+ }
+
+ .linkedin-icon , .github-icon {
+   margin-top: 20px;
+   background-color: darkkhaki;
+   padding:10px;
+   border-radius:10px;
+   cursor: pointer;
+ }
+
+ .linkedin-icon , .github-icon a{
+  color: rgba(255, 255, 255,0.9);
+  line-height: 30px;
+  display:inline-block;
+  padding: 30px;
+ }
+
+ .linkedin-icon:hover , .github-icon:hover {
+   border: 1px  solid red;
+ }
+
+ .project-discription-right{
+   text-align: center;
+   width: 50%;
+ }
+
+.me-image{
+  height: 400px;
+  width: 60%; 
+}
+
+footer{
+  background-color: darkkhaki;
+  padding: 50px 60px;
+  color:white;
+  display: flex;
+}
+
+.footer-left h2{
+  font-size:30px;
+}
+
+.footer-left p{
+  font-size: 15px;
+}
+
+.footer-right{
+  margin-left: 50%;
+}
+
+.footer-right h3{
+  font-size:25px;
+}
+
+.footer-right ul{
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer-right ul li a{
+  color:white;
+}
